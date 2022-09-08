@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link para o arquivo de estilos CSS -->
+  <link rel="stylesheet" href="./styles.css">
+  <!-- Link para o arquivo de estilos CSS -->
+
+  <title>About</title>
+</head>
+
+<body>
+  <img src="./assets/images/alpha_logo.png" alt="Alpha Lumen">
+  <h1>Calculadora</h1>
+  <h2>Sistema de operações aritméticas</h2>
+
+  <!-- Formulário para entrada de dados(inputs) -->
+  <div class="form-calculator">
+    <div class="input-container">
+      <label for="input_operand">Operando:</label>
+      <input id="input_operand" type="number" placeholder="Digite o valor do operando" />
+    </div>
+
+    <div class="input-container">
+      <label for="input_operator">Operador:</label>
+      <input id="input_operator" type="number" placeholder="Digite o valor do operador" />
+    </div>
+
+    <button type="button" class="button-calculate" onclick="calculate(input_operand.value, input_operator.value)">Calcular</button>
+  </div>
+  <!-- Formulário para entrada de dados(inputs) -->
+
+  <!-- Espaço para entrega dos resultados. O atributo "id" permite que um elemento do HTML seja capturado no JavaScript e posteriormente alterado -->
+  <div class="results">
+    <p>Soma:<span id="result-sum"></span></p>
+    <p>Subtração:<span id="result-sub"></span></p>
+    <p>Multiplicação:<span id="result-multiply"></span></p>
+    <p>Divisão:<span id="result-division"></span></p>
+    <p>Resto:<span id="result-rest"></span></p>
+    <p>Potenciação:<span id="result-power"></span></p>
+  </div>
+  <!-- Espaço para entrega dos resultados. O atributo "id" permite que um elemento do HTML seja capturado no JavaScript e posteriormente alterado -->
+
+</body>
+
+<!-- Link para o arquivo de programação JavaScript -->
+<script src="./scripts.js"></script>
+<!-- Link para o arquivo de programação JavaScript -->
+
+</html>
