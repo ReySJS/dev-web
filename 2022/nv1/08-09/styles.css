@@ -1,19 +1,7 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
-  width: 100vw;
-  height: 100vh;
-  margin: unset;
-  padding: 0;
-}
-
 body {
   width: 100vw; /* Largura do corpo definida como 100% do 'view width'(largura da tela) */
   height: 100vh; /*  Altura do corpo definida como 100% do 'view height'(altura da tela) */
   display: flex;
-  margin: 0;
   flex-direction: column; /* Parametro usado para organizar os elementos dentro de um container(nesse caso, o body) no sentido vertical. */
   justify-content: center; /*  Parâmetro usado para alinhar horizontalmente ao centro */
   align-items: center; /*  Parâmetro usado para alinhar verticalmente ao centro */
@@ -23,7 +11,7 @@ img {
   width: 100px;
 }
 
-.form-calculator {
+.form-login {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,8 +24,8 @@ img {
   gap: 8px;
 }
 
-.button-calculate {
-  width: 290px;
+.button-enter {
+  width: 220px;
   height: 33px;
   display: flex;
   justify-content: center;
@@ -50,7 +38,7 @@ img {
 }
 
 /* Ao chamar o elemento que queremos estilizar seguido de :hover, podemos criar o estilo que o elemento terá quando passarmos o mouse sobre ele */
-.button-calculate:hover {
+.button-enter:hover {
   background-color: #5cbea2;
 }
 /* Ao chamar o elemento que queremos estilizar seguido de :hover, podemos criar o estilo que o elemento terá quando passarmos o mouse sobre ele */
