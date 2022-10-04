@@ -1,4 +1,4 @@
-let user = {
+let users = {
   "rey@gmail.com": "123456789",
 };
 
@@ -8,7 +8,7 @@ function login() {
   const email = document.getElementById("input-email").value;
   const password = document.getElementById("input-password").value;
 
-  if (user[email] == password) {
+  if (users[email] == password) {
     window.location.href = "./dashboard.html";
     return;
   }
