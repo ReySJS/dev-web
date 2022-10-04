@@ -13,15 +13,15 @@ img {
 
 .form-login {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; /* Parametro usado para organizar os elementos dentro de um container(nesse caso, o body) no sentido vertical. */
+  align-items: center; /*  Parâmetro usado para alinhar verticalmente ao centro */
   gap: 8px; /* Parâmetro usado para separar em uma quantidade de pixels os elementos dentro do container(nesse caso, o conteiner é a div com id="form-calculator"). */
 }
 
 .input-container {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 8px; /* Parâmetro usado para separar em uma quantidade de pixels os elementos dentro do container(nesse caso, o conteiner é a div com id="form-calculator"). */
 }
 
 .button-enter {
