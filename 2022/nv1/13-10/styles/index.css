@@ -1,0 +1,52 @@
+body {
+  width: 100vw; /* Largura do corpo definida como 100% do 'view width'(largura da tela) */
+  height: 100vh; /*  Altura do corpo definida como 100% do 'view height'(altura da tela) */
+  display: flex;
+  flex-direction: column; /* Parametro usado para organizar os elementos dentro de um container(nesse caso, o body) no sentido vertical. */
+  justify-content: center; /*  Parâmetro usado para alinhar horizontalmente ao centro */
+  align-items: center; /*  Parâmetro usado para alinhar verticalmente ao centro */
+}
+
+img {
+  width: 100px;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column; /* Parametro usado para organizar os elementos dentro de um container(nesse caso, o body) no sentido vertical. */
+  align-items: center; /*  Parâmetro usado para alinhar verticalmente ao centro */
+  gap: 8px; /* Parâmetro usado para separar em uma quantidade de pixels os elementos dentro do container(nesse caso, o conteiner é a div com id="form-calculator"). */
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Parâmetro usado para separar em uma quantidade de pixels os elementos dentro do container(nesse caso, o conteiner é a div com id="form-calculator"). */
+}
+
+.button-enter {
+  width: 220px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px; /* Parâmetro usado para arredondar as bordas de um elemento. */
+  border: 1px solid #727272; /* Parâmetro usado para definir a espessura, tipo e cor de borda de um elemento */
+  background-color: #4f9b85;
+  color: #ffffff;
+  cursor: pointer; /* Parâmetro usado para definir o tipo de ícone do mouse quando passamos o mouse por cima dele. */
+}
+
+/* Ao chamar o elemento que queremos estilizar seguido de :hover, podemos criar o estilo que o elemento terá quando passarmos o mouse sobre ele */
+.button-enter:hover {
+  background-color: #5cbea2;
+}
+/* Ao chamar o elemento que queremos estilizar seguido de :hover, podemos criar o estilo que o elemento terá quando passarmos o mouse sobre ele */
+
+input {
+  width: 200px;
+  height: 33px;
+  padding-left: 8px; /* Parâmetro usado para definir o espaçamento interno de um elemento, nesse caso, o espaçamento interno esquerdo. */
+  border-radius: 8px;
+  border: 1px solid #727272;
+}
