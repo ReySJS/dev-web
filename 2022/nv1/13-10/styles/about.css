@@ -89,6 +89,7 @@ section {
   flex-wrap: wrap;
   padding: 20px;
   overflow-y: scroll;
+  flex-direction: column;
 }
 
 .cards {
